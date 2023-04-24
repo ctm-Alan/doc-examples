@@ -57,7 +57,7 @@ Each pull request must have a matching issue in JIRA. The JIRA issue key should 
 
 The description should start with a clickable link to your JIRA card. It should then have a brief description about the work done in terms of your approach. There is no need to reproduce the problem statement from JIRA.
 
-If the PR is big (it shouldnt be), please split up the commits in a way that makes it easier for us to understand the changes. This is especially important if you are doing large scale renaming, file moving, namespace changes etc.
+If the PR is big (it shouldn't be), please split up the commits in a way that makes it easier for us to understand the changes. This is especially important if you are doing large scale renaming, file moving, namespace changes etc.
 
 If your work is not ready to be merged and released to production, you should add "* DO NOT MERGE *" to the title of your pull request. You can also raise a draft PR - we don't tend to comment on these. But if you'd like us to, feel free to ask in #micro-machines-public
 
