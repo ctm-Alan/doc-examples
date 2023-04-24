@@ -31,7 +31,7 @@ You may want to delete your branch after your PR has been merged to keep your fo
 
 Most of our projects are built with .NET Core and as long as you have the correct version of the SDK installed you should be able to build as per normal. We don't use docker locally, so just run the project directly - no need to spin up containers locally.
 
-We use Rider on M1 Mac and that is the use case we've optimized for, you may find that some other IDE's may act and behave differently when it comes to building and running our projects which we haven't catered for.
+We use Rider on an M1 Mac and that is what we've optimized for, you may find that some other IDEs may act and behave differently when it comes to building and running our projects which we haven't catered for.
 
 Generally we don't spin up containers representing other services locally. You can talk to test/shadow instances of the service dependencies when debugging locally.
 
